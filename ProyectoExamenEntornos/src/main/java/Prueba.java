@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package examendual;
 
 /**
  *
- * @author pablo
+ * @author javie
  */
-public class prueba {
+public class Prueba {
     
     public static int aProbar(int q)
     {
@@ -29,5 +28,4 @@ public class prueba {
         
         return res;
     }
-    
 }
