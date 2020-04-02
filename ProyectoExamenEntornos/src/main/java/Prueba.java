@@ -9,23 +9,19 @@
  * @author javie
  */
 public class Prueba {
-    
-    public static int aProbar(int q)
-    {
-        int res = 0, i=0;
-        
-        if(q<0)
-        {
+
+    public static int aProbar(int q) {
+        int res = 0, i = 0;
+
+        if (q < 0) {
             return 0;
-        }
-        else
-        {
-            while(i<q)
-            {
-                res=res + q;
+        } else {
+            while (i < q) {
+                res = res + q;
+                i++;
             }
         }
-        
+
         return res;
     }
 }
